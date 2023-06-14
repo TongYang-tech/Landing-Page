@@ -1,11 +1,19 @@
+body {
+  background-color: #362FBB;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 
-li {
+li, a {
   text-decoration: none;
+}
+
+a {
+  color:  #FFB845;
 }
 
 header {
@@ -15,6 +23,40 @@ header {
   padding: 30px 10%;
 }
 
-.nav_link {
+.nav_link li{
+  display: inline-block;
+  padding: 0px 20px;
+}
 
+.logo {
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.flex-container-top, .flex-container-middle {
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.flex-item-1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  height: 300px;
+  width: 500px;
+}
+
+p {
+  color: #FFB845;
+}
+
+.flex-container-middle {
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.quote-box {
+  text-align: center;
+  height: 300px;
 }
